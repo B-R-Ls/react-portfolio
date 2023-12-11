@@ -1,17 +1,20 @@
-
+import Container from "react-bootstrap/Container";
 
 const Contact = () => {
     return (
       <>
-      <form>
-        <h2>Contact</h2>
-        <h3>Name:</h3>
-        <input></input>
-        <h3>Email Address:</h3>
-        <input></input>
-        <h3>Message:</h3>
-        <input></input>
-      </form>
+      <Container  className="bodyDiv">
+        <form className="d-flex flex-column">
+          <h2>Contact</h2>
+          <h3>Name:</h3>
+          <input></input>
+          <h3>Email Address:</h3>
+          <input></input>
+          <h3>Message:</h3>
+          <input id="message"></input>
+          <button id="submit">Submit</button>
+        </form>
+      </Container>
       </>
     );
   }
