@@ -10,7 +10,7 @@ const Portfolio = () => {
           <div className="d-flex flex-wrap justify-content-center">
             <div id="moneytype">
               <div className="d-flex projectText">
-                <a className="overRide">
+                <a href="https://moneytype.dev.133700.xyz/" className="overRide">
                 <p>Money Type</p>              
                 </a>
                 <a href="https://github.com/pcrainer38/moneytype" className="overRide">
