@@ -5,13 +5,13 @@ const Resume = () => {
       <>
         <Container  className="bodyDiv">
           <h2>Resume</h2>
-          <p>download my 
-            <a>
+          <p className="font">download my 
+            <a id="resume" href="https://drive.google.com/file/d/1mVuz8sYABWwDGzJscm-joLmXbZzZZQR6/view">
               {' '}resume
             </a>
           </p>
           <h3>Front-End Proficiencies</h3>
-          <ul>
+          <ul className="skill">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -22,7 +22,7 @@ const Resume = () => {
             <li>Tailwind</li>
           </ul>
           <h3>Back-End proficiencies</h3>
-          <ul>
+          <ul  className="skill">
             <li>APIs</li>
             <li>Node</li>
             <li>Express</li>

@@ -2,7 +2,7 @@
     --primary: #780000;
     --secondary: #c1121f;
     --tertiary: #fdf0d5;
-    --quatiary: #003049 ;
+    --quatiary: #ce5652 ;
     --extra: #669bbc;
 }
 
@@ -59,6 +59,25 @@ p {
     margin-top: 50px;
 }
 
+.smInput {
+    width: 200px;
+}
+
+.skill {
+    font-weight: bolder;
+}
+
+.font {
+    font-size: 22px;
+}
+
+.overRide {
+    color: var(--primary);
+}
+.overRide:hover {
+    color: var(--secondary);
+}
+
 #header {
     background-color: var(--primary);
 }
@@ -75,7 +94,57 @@ p {
     font-size: 20px;
 }
 
+#moneytype {
+    background-image: url(./assets/Money.jpg);
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+#Myworkout {
+    background-image: url(./assets/workout.jpg);
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+#DATE {
+    background-image: url(./assets/Text.png);
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+#ProfileManager {
+    background-image: url(./assets/profile.jpg);
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    font-size: 22px;
+}
+
 #message {
     width: 700px;
     height: 350px;
+}
+
+#submit {
+    width: 200px;
+    background-color: var(--quatiary);
+    color: var(--primary);
+    font-size: 20px;
+    margin-left: 0px;
+    border: solid;
+    border-color: var(--secondary);
+}
+#submit:hover {
+    background-color: var(--secondary);
+}
+
+#resume {
+    font-weight: bolder;
+    color: #780000;
 }
