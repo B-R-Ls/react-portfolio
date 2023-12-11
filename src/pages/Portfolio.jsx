@@ -20,7 +20,7 @@ const Portfolio = () => {
             </div>
             <div id="Myworkout">
               <div className="d-flex">
-                <a className="overRide">
+                <a href="https://my-workouts-c1e5314d5b06.herokuapp.com/" className="overRide">
                 <p>My Workout</p>              
                 </a>
                 <a href="https://github.com/lindseycarlson23/my-workouts" className="overRide">
