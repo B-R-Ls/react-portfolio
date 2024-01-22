@@ -6,7 +6,7 @@ const Resume = () => {
         <Container  className="bodyDiv">
           <h2>Resume</h2>
           <p className="font">download my 
-            <a id="resume" href="https://drive.google.com/file/d/1mVuz8sYABWwDGzJscm-joLmXbZzZZQR6/view">
+            <a id="resume" href="https://drive.google.com/file/d/1vhlmHabyeVHLAtWeYLqlpecjQWnwnFRc/view?usp=drive_link">
               {' '}resume
             </a>
           </p>
